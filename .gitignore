@@ -12,7 +12,7 @@ build/
 *.pot
 *.mo
 venv/
-.env # --- CRITICAL: Ignore environment variables ---
+.env
 
 # Django
 db.sqlite3 # Ignore if using sqlite for quick tests
@@ -21,7 +21,7 @@ media/
 
 # Node / React
 node_modules/
-dist/ # Frontend build output (if not needed in repo)
+dist/
 .npm/
 npm-debug.log*
 yarn-debug.log*
